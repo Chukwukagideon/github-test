@@ -7,6 +7,7 @@ car_stopped = True
 
 button = ["start", "stop", "help"]
 for keypad in button:
+    """looping through prest commands, crosschecking with user input to give command to car"""
     if key == "start":
         if car_started is False:
             print("car started")
